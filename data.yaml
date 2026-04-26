@@ -1,0 +1,15 @@
+path: dataset
+
+train: train/images
+val: valid/images
+
+# number of classes
+nc: 5
+
+# class names with explicit indices (0-based, sequential)
+names:
+  0: Gun
+  1: Knife
+  2: Pliers
+  3: Scissors
+  4: Wrench
