@@ -1,5 +1,42 @@
+# 🔹 Virtual Environment
 venv/
+.env/
+.venv/
+
+# 🔹 Python cache
 __pycache__/
-*.pt
+*.pyc
+*.pyo
+*.pyd
+
+# 🔹 YOLO / Training outputs
 runs/
-dataset/
+*.pt
+*.onnx
+
+# 🔹 Dataset (ignore actual files but keep structure)
+datasets/images/*/*
+datasets/labels/*/*
+!datasets/**/.gitkeep
+
+# 🔹 Image files (avoid large uploads)
+*.jpg
+*.jpeg
+*.png
+
+# 🔹 Logs
+*.log
+
+# 🔹 OS files
+.DS_Store
+Thumbs.db
+
+# 🔹 VS Code settings (optional)
+.vscode/
+
+# 🔹 Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# 🔹 Build / temp files
+*.tmp
+*.temp
